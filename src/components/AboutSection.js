@@ -1,5 +1,5 @@
 import React from "react";
-import homeIntro from "../img/homeIntro.jpg"
+import homeIntro from "../img/home_Intro.jpg";
 
 function AboutSection() {
   return (
