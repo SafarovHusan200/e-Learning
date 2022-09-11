@@ -9,6 +9,8 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: #2a2e35;
+        font-family: 'SF Pro Display', sans-serif;
+                                                
     }
 
     button{
@@ -17,11 +19,11 @@ const GlobalStyle = createGlobalStyle`
         cursor: pointer;
         background-color: transparent;
         padding: 1rem 2rem; 
-        border: 2px solid #ffe45c;
+        border: 2px solid #30BEE1;
         color: #fff;
         transition: all 0.25s linear;    
         &:hover{
-            background-color: #ffe45c;
+            background-color: #30BEE1;
             color: #2a2e35;
         }
 
@@ -36,7 +38,7 @@ const GlobalStyle = createGlobalStyle`
 
     }
     span{
-        color: #ffe45c;
+        color: #30BEE1;
         font-weight: bold;
     }
 
