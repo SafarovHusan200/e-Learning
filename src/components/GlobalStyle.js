@@ -35,7 +35,11 @@ const GlobalStyle = createGlobalStyle`
 
     h3{
         color: #fff;
+    }
 
+    h4{
+        font-weight: bold;
+        font-size: 2rem;
     }
     span{
         color: #30BEE1;
