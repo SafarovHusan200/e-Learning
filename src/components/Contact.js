@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+// Animation
+import { motion } from "framer-motion";
+import {pageAnimation} from "../animation"
 
 function Contact() {
   return (
-    <StyledContactUs>
+    <StyledContactUs variants={pageAnimation} initial="hidden" animate="show" exit="exit">
       <h1>Contact Us</h1>
       <Contacts>
         <div className="col">
@@ -29,7 +32,7 @@ function Contact() {
   );
 }
 
-const StyledContactUs = styled.div`
+const StyledContactUs = styled(motion.div)`
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -47,5 +50,3 @@ const Contacts = styled.div`
 `;
 
 export default Contact;
-
-
